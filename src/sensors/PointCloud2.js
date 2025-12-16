@@ -3,7 +3,7 @@
  */
 
 import * as THREE from "three";
-import ROSLIB from "roslib";
+import * as ROSLIB from 'roslib';
 import { Points } from "./Points.js";
 import { getLogger } from "../utils/Logger.js";
 import { decode64 } from "../utils/encoding.js";

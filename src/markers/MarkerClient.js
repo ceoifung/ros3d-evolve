@@ -4,7 +4,7 @@
 
 import * as THREE from "three";
 import { EventEmitter } from "eventemitter3";
-import ROSLIB from "roslib";
+import * as ROSLIB from 'roslib';
 import { Marker } from "./Marker.js";
 import { SceneNode } from "../visualization/SceneNode.js";
 

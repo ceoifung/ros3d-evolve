@@ -3,7 +3,7 @@
  */
 
 import * as THREE from "three";
-import ROSLIB from "roslib";
+import * as ROSLIB from 'roslib';
 import { getLogger } from "../utils/Logger.js";
 
 const logger = getLogger("NavSatFix");

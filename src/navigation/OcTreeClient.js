@@ -3,7 +3,7 @@
  */
 
 import { EventEmitter } from "eventemitter3";
-import ROSLIB from "roslib";
+import * as ROSLIB from 'roslib';
 import { SceneNode } from "../visualization/SceneNode.js";
 import { getLogger } from "../utils/Logger.js";
 import { OcTree } from "./OcTree.js";

@@ -4,6 +4,12 @@ ROS3D-EVOLVE 库是基于官方 ros3djs 项目上重构后的产品，尽量保�
 
 项目中定制详尽的重构计划和 API 的审核计划，编码和功能细节评审借助 AI 辅助实现，并且经过了渲染测试对比。项目上，主要改进包括使用 ES6 模块、Vite 构建工具、稍新一点的 Threejs 以及改进的代码架构。
 
+## 升级内容
+
+- 升级到roslib为2.0.1，适应build规范
+- 修复laserScan的兼容性问题，默认throttle_rate由原先的null改为1
+- 将`import ROSLIB from 'roslib'`;改为 `import * as ROSLIB from 'roslib'`;
+
 ## 主要特性
 
 - 实时 3D 可视化 ROS 消息

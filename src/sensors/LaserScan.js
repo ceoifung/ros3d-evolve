@@ -31,7 +31,7 @@ export class LaserScan extends THREE.Object3D {
     const {
       ros,
       topic = "/scan",
-      throttle_rate = null,
+      throttle_rate = 1,
       messageRatio = 1,
       compression = "cbor",
       rootObject,

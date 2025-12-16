@@ -3,7 +3,7 @@
  */
 
 import * as THREE from "three";
-import ROSLIB from "roslib";
+import * as ROSLIB from 'roslib';
 import { SceneNode } from "@visualization/SceneNode.js";
 import { MeshResource } from "@models/MeshResource.js";
 

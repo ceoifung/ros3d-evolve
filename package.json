@@ -1,7 +1,7 @@
 {
   "name": "ros3d-evolve",
   "description": "The standard ROS Javascript Visualization Library",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "./dist/ros3d.cjs.js",
   "module": "./dist/ros3d.es.js",
   "browser": "./dist/ros3d.iife.js",
@@ -14,8 +14,8 @@
     "test": "vitest run",
     "test:ui": "vitest --ui",
     "test:watch": "vitest",
-    "test:verify": "pnpm build && vitest run",
-    "prepublishOnly": "pnpm build"
+    "test:verify": "npm run build && vitest run",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "loglevel": "^1.9.2",
@@ -23,7 +23,7 @@
   },
   "peerDependencies": {
     "eventemitter3": "^5.0.1",
-    "roslib": "^1.0.0",
+    "roslib": "^2.0.1",
     "three": "^0.118.3"
   },
   "devDependencies": {
